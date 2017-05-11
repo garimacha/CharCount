@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 
 namespace ConsoleApplication
@@ -7,7 +8,12 @@ namespace ConsoleApplication
     {
         public static void Main(string[] args)
         {
-            DuplicateChar.duplicateChar("hello");
+            StringBuilder st=reversestring.stringReverse("hello");
+            Console.WriteLine(st);
+
+
+
+            //DuplicateChar.duplicateChar("hello");
 
 
 
